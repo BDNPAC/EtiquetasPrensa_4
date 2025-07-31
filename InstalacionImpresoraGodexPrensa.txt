@@ -1,0 +1,62 @@
+\\Pc-francesc\D\Download\Softwares\Golabel\setup.exe
+Next
+Next
+....
+
+Close
+
+Conectar impresora derecha al puerto USB
+
+Dar permiso de administrador.
+
+Si, solo esta vez
+	Siguiente >
+
+Instalar desde una lista especifica.
+	Siguiente >
+
+\\Pc-francesc\D\Download\Drivers\Driver-Other.
+	Siguiente >
+
+Continuar
+
+Finalizar
+
+Inicio -> Configuración -> Impresoras
+
+Cambiar Godex DT2 -> GodexDerecha
+
+Conectar impresora izquierda al puerto USB
+
+Dar permiso de administrador.
+
+Si, solo esta vez
+	Siguiente >
+
+Instalar desde una lista especifica.
+	Siguiente >
+
+\\Pc-francesc\D\Download\Drivers\Driver-Other.
+	Siguiente >
+
+Continuar
+
+Finalizar
+
+Inicio -> Configuración -> Impresoras
+
+Cambiar Godex DT2 -> GodexIzquierda
+
+
+Cerra sesion
+
+Abrir sesion administrador.
+
+Copiar en C:\	GodexDerecha.bat
+
+Copiar en C:\	GodexIzquierda.bat
+
+Copiar en C:\Documents and settingns\Sala\Mis documentos\	lbPrensa_0.ezpx
+
+Reiniciar
+

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrintJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QLabelSDKVersion>1.3.0.0</QLabelSDKVersion>
+  <Label>
+    <SerialFormat>
+      <string>001,+1,Prompt</string>
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+    </SerialFormat>
+    <VariableFormat>
+      <string>11,Prompt,jl8</string>
+      <string>15,Prompt,jl8</string>
+      <string>10,Prompt,jl8</string>
+      <string>14,Prompt,jl8</string>
+      <string>1,Prompt,jl8</string>
+      <string>3,Prompt,jl8</string>
+      <string>1,Prompt,jl8</string>
+      <string>15,Prompt,jl8</string>
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+    </VariableFormat>
+    <qlabel>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="18.835144" Y="6" Alignment="Left" AlignPointX="18.835144" AlignPointY="6" FontCmd="Arial,14.25,B&#xD;&#xA;" FontHeight="1000" FontWidth="1000" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>true</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>0</Id>
+        <Name>W</Name>
+        <FormatType>None</FormatType>
+        <P1 />
+        <P2 />
+        <P3 />
+        <P4 />
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>000000000000000</DispData>
+        <bRemovePreZeroAndEmpty>false</bRemovePreZeroAndEmpty>
+        <Data>^V07</Data>
+        <BoundRectWidth>340.730133</BoundRectWidth>
+        <BoundRectHeight>45.6301155</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>18.835144</X>
+            <Y>6</Y>
+          </Location>
+          <Size>
+            <Width>340.730133</Width>
+            <Height>45.6301155</Height>
+          </Size>
+          <X>18.835144</X>
+          <Y>6</Y>
+          <Width>340.730133</Width>
+          <Height>45.6301155</Height>
+        </BoundRect>
+      </GraphicShape>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="180.111" Y="229.2222" Alignment="Left" AlignPointX="180.111" AlignPointY="229.2222" FontCmd="Arial,11.25&#xD;&#xA;" FontHeight="1000" FontWidth="1000" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>18</Id>
+        <Name>W</Name>
+        <FormatType>None</FormatType>
+        <P1 />
+        <P2 />
+        <P3 />
+        <P4 />
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>0</DispData>
+        <bRemovePreZeroAndEmpty>false</bRemovePreZeroAndEmpty>
+        <Data>^V06</Data>
+        <BoundRectWidth>18.0112228</BoundRectWidth>
+        <BoundRectHeight>36.1805763</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>180.111</X>
+            <Y>229.2222</Y>
+          </Location>
+          <Size>
+            <Width>18.0112228</Width>
+            <Height>36.1805763</Height>
+          </Size>
+          <X>180.111</X>
+          <Y>229.2222</Y>
+          <Width>18.0112228</Width>
+          <Height>36.1805763</Height>
+        </BoundRect>
+      </GraphicShape>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="173.111" Y="267.2222" Alignment="Left" AlignPointX="173.111" AlignPointY="267.2222" FontCmd="Arial,11.25&#xD;&#xA;" FontHeight="1000" FontWidth="1000" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>18</Id>
+        <Name>W</Name>
+        <FormatType>None</FormatType>
+        <P1 />
+        <P2 />
+        <P3 />
+        <P4 />
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>000</DispData>
+        <bRemovePreZeroAndEmpty>false</bRemovePreZeroAndEmpty>
+        <Data>^V05</Data>
+        <BoundRectWidth>54.03367</BoundRectWidth>
+        <BoundRectHeight>36.1805763</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>173.111</X>
+            <Y>267.2222</Y>
+          </Location>
+          <Size>
+            <Width>54.03367</Width>
+            <Height>36.1805763</Height>
+          </Size>
+          <X>173.111</X>
+          <Y>267.2222</Y>
+          <Width>54.03367</Width>
+          <Height>36.1805763</Height>
+        </BoundRect>
+      </GraphicShape>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="127.333206" Y="229.333313" Alignment="Left" AlignPointX="127.333206" AlignPointY="229.333313" FontCmd="Arial,24&#xD;&#xA;" FontHeight="1000" FontWidth="1000" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>18</Id>
+        <Name>W</Name>
+        <FormatType>None</FormatType>
+        <P1 />
+        <P2 />
+        <P3 />
+        <P4 />
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>0</DispData>
+        <bRemovePreZeroAndEmpty>false</bRemovePreZeroAndEmpty>
+        <Data>^V04</Data>
+        <BoundRectWidth>38.00374</BoundRectWidth>
+        <BoundRectHeight>76.34113</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>127.333206</X>
+            <Y>229.333313</Y>
+          </Location>
+          <Size>
+            <Width>38.00374</Width>
+            <Height>76.34113</Height>
+          </Size>
+          <X>127.333206</X>
+          <Y>229.333313</Y>
+          <Width>38.00374</Width>
+          <Height>76.34113</Height>
+        </BoundRect>
+      </GraphicShape>
+      <GraphicShape xsi:type="RoundRect" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="false" Direction="Angle0" X="117.888885" Y="227.222229" Alignment="Left" AlignPointX="117.888885" AlignPointY="227.222229">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>16</Id>
+        <Name>RR</Name>
+        <Height>80.66666</Height>
+        <Stroke>4</Stroke>
+        <Width>121.111115</Width>
+      </GraphicShape>
+      <GraphicShape xsi:type="QRCode" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="254" Y="212.000214" Alignment="Left" AlignPointX="254" AlignPointY="212.000214" Mode="Auto" Type="2" ErrorCorrectionLevel="77" Mask="8" Multiple="6" IsUTF8="true">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>195</Id>
+        <Name>W</Name>
+        <FormatType>None</FormatType>
+        <P1 />
+        <P2 />
+        <P3 />
+        <P4 />
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>00000000000000</DispData>
+        <bRemovePreZeroAndEmpty>false</bRemovePreZeroAndEmpty>
+        <Data>^V03</Data>
+        <BoundRectWidth>126</BoundRectWidth>
+        <BoundRectHeight>126</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>254</X>
+            <Y>212.000214</Y>
+          </Location>
+          <Size>
+            <Width>126</Width>
+            <Height>126</Height>
+          </Size>
+          <X>254</X>
+          <Y>212.000214</Y>
+          <Width>126</Width>
+          <Height>126</Height>
+        </BoundRect>
+      </GraphicShape>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="23.9977913" Y="347.9365" Alignment="Left" AlignPointX="23.9977913" AlignPointY="347.9365" FontCmd="Arial,9.75&#xD;&#xA;" FontHeight="14.25" FontWidth="14.25" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>84</Id>
+        <Name>W</Name>
+        <FormatType>None</FormatType>
+        <P1 />
+        <P2 />
+        <P3 />
+        <P4 />
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>00000000000000</DispData>
+        <bRemovePreZeroAndEmpty>false</bRemovePreZeroAndEmpty>
+        <Data>^V03</Data>
+        <BoundRectWidth>219.228287</BoundRectWidth>
+        <BoundRectHeight>31.4558067</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>23.9977913</X>
+            <Y>347.9365</Y>
+          </Location>
+          <Size>
+            <Width>219.228287</Width>
+            <Height>31.4558067</Height>
+          </Size>
+          <X>23.9977913</X>
+          <Y>347.9365</Y>
+          <Width>219.228287</Width>
+          <Height>31.4558067</Height>
+        </BoundRect>
+      </GraphicShape>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="23.8571415" Y="306.4286" Alignment="Left" AlignPointX="23.8571415" AlignPointY="306.4286" FontCmd="Arial,11.25&#xD;&#xA;" FontHeight="24" FontWidth="24" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>12</Id>
+        <Name>W</Name>
+        <FormatType>None</FormatType>
+        <P1 />
+        <P2 />
+        <P3 />
+        <P4 />
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>Item:</DispData>
+        <bRemovePreZeroAndEmpty>false</bRemovePreZeroAndEmpty>
+        <Data>Item:</Data>
+        <BoundRectWidth>71.981636</BoundRectWidth>
+        <BoundRectHeight>36.1805763</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>23.8571415</X>
+            <Y>306.4286</Y>
+          </Location>
+          <Size>
+            <Width>71.981636</Width>
+            <Height>36.1805763</Height>
+          </Size>
+          <X>23.8571415</X>
+          <Y>306.4286</Y>
+          <Width>71.981636</Width>
+          <Height>36.1805763</Height>
+        </BoundRect>
+      </GraphicShape>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="18.91007" Y="169" Alignment="Left" AlignPointX="18.91007" AlignPointY="169" FontCmd="Arial,12&#xD;&#xA;" FontHeight="14.25" FontWidth="14.25" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>84</Id>
+        <Name>W</Name>
+        <FormatType>None</FormatType>
+        <P1 />
+        <P2 />
+        <P3 />
+        <P4 />
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>0000000000</DispData>
+        <bRemovePreZeroAndEmpty>false</bRemovePreZeroAndEmpty>
+        <Data>^V02</Data>
+        <BoundRectWidth>191.872528</BoundRectWidth>
+        <BoundRectHeight>38.54296</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>18.91007</X>
+            <Y>169</Y>
+          </Location>
+          <Size>
+            <Width>191.872528</Width>
+            <Height>38.54296</Height>
+          </Size>
+          <X>18.91007</X>
+          <Y>169</Y>
+          <Width>191.872528</Width>
+          <Height>38.54296</Height>
+        </BoundRect>
+      </GraphicShape>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="18.3145561" Y="118" Alignment="Left" AlignPointX="18.3145561" AlignPointY="118" FontCmd="Arial,15.75&#xD;&#xA;" FontHeight="15.75" FontWidth="15.75" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>83</Id>
+        <Name>W</Name>
+        <FormatType>None</FormatType>
+        <P1 />
+        <P2 />
+        <P3 />
+        <P4 />
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>000000000000000</DispData>
+        <bRemovePreZeroAndEmpty>false</bRemovePreZeroAndEmpty>
+        <Data>^V01</Data>
+        <BoundRectWidth>376.011047</BoundRectWidth>
+        <BoundRectHeight>50.35489</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>18.3145561</X>
+            <Y>118</Y>
+          </Location>
+          <Size>
+            <Width>376.011047</Width>
+            <Height>50.35489</Height>
+          </Size>
+          <X>18.3145561</X>
+          <Y>118</Y>
+          <Width>376.011047</Width>
+          <Height>50.35489</Height>
+        </BoundRect>
+      </GraphicShape>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="17.8351345" Y="57.0000076" Alignment="Left" AlignPointX="17.8351345" AlignPointY="57.0000076" FontCmd="Arial,18,B&#xD;&#xA;" FontHeight="1000" FontWidth="1000" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>0</Id>
+        <Name>W</Name>
+        <FormatType>None</FormatType>
+        <P1 />
+        <P2 />
+        <P3 />
+        <P4 />
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>00000000000</DispData>
+        <bRemovePreZeroAndEmpty>false</bRemovePreZeroAndEmpty>
+        <Data>^V00</Data>
+        <BoundRectWidth>314.550446</BoundRectWidth>
+        <BoundRectHeight>57.4420471</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>17.8351345</X>
+            <Y>57.0000076</Y>
+          </Location>
+          <Size>
+            <Width>314.550446</Width>
+            <Height>57.4420471</Height>
+          </Size>
+          <X>17.8351345</X>
+          <Y>57.0000076</Y>
+          <Width>314.550446</Width>
+          <Height>57.4420471</Height>
+        </BoundRect>
+      </GraphicShape>
+    </qlabel>
+    <VariableOpFormat />
+    <DateFormat>y2-me-dd</DateFormat>
+    <TimeFormat>h:m:s</TimeFormat>
+    <DataBaseFormat>None</DataBaseFormat>
+    <DataBaseFilePath>C:\Users\Administrador\AppData\Roaming\Godex\AutoFileCopy.TXT</DataBaseFilePath>
+    <DataBaseSelection>SELECT  * from `AutoFileCopy#TXT` ;</DataBaseSelection>
+    <UserID />
+    <Password />
+    <ServerName>???</ServerName>
+    <IntegratedSecurity>false</IntegratedSecurity>
+    <RowIndex>0</RowIndex>
+  </Label>
+  <Setup LabelLength="50" LabelWidth="50" LeftMargin="0" TopMargin="0" LabelType="0" GapLength="5" FeedLength="0" ZSign="45" BlackMark="0" Position="0" Speed="7" Copy="1" bCopyDataBase="false" CopyField="None" Stripper="1" LabelsPerCut="0" Rotate180="255" Stop="8" Darkness="8" Number="1" bNumberDataBase="false" NumberField="None" PageDirection="Portrait" PrintMode="1">
+    <Layout Shape="0" AcrossType="Copied" PageDirection="Portrait" HorAcross="1" VerAcross="1" HorGap="0" VerGap="0" HorAcrossMode1="0" VerAcrossMode1="0" LabelMode="0" HorGapMode1="0" VerGapMode1="0" />
+    <Description>New Label</Description>
+    <UnitType>Mm</UnitType>
+    <Dpi>203</Dpi>
+  </Setup>
+  <DriverName>GodexDerecha</DriverName>
+  <PrinterModel>DT2x</PrinterModel>
+  <PrinterLanguage>EZPL</PrinterLanguage>
+  <USBName>GODEX DT2x#17160236</USBName>
+  <COMName>COM1</COMName>
+  <CommunicationType>USB</CommunicationType>
+  <NetworkIPAddress>0</NetworkIPAddress>
+  <NetworkPort>9100</NetworkPort>
+  <BaudRate>9600</BaudRate>
+  <ComSettings>N81</ComSettings>
+  <StandaloneDbSearchKey />
+  <StandaloneDbEnable>false</StandaloneDbEnable>
+</PrintJob>

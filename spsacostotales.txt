@@ -1,0 +1,10 @@
+SELECT TOP (100) PERCENT COUNT(100 * dbo.Articulos.Sala + dbo.Articulos.Posicion) AS TotSacos, 
+     dbo.Articulos.EnProduccion, COUNT(dbo.Sacos.NCPPrensa) AS Prensados, 
+     dbo.PosNueva.NewPosicion, dbo.Sacos.Agujeros
+FROM dbo.Sacos INNER JOIN
+     dbo.Articulos ON dbo.Sacos.IdNumFicha = dbo.Articulos.NumFicha INNER JOIN
+     dbo.PosNueva ON 
+     100 * dbo.Articulos.Sala + dbo.Articulos.Posicion = dbo.PosNueva.Posicion
+WHERE (dbo.Articulos.IdPedido = 20180747)
+GROUP BY 100 * dbo.Articulos.Sala + dbo.Articulos.Posicion, dbo.Articulos.EnProduccion, 
+     dbo.PosNueva.NewPosicion, dbo.Sacos.Agujeros

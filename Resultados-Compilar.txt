@@ -1,0 +1,14 @@
+﻿1>------ Operación Compilar iniciada: proyecto: EtiquetasPrensa, configuración: Debug x86 ------
+1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1819,5): warning MSB3274: La referencia principal "Microsoft.VisualBasic.PowerPacks.Design, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" no se pudo resolver porque se generó con la versión de .NET Framework ".NETFramework,Version=v4.5". Esta es una versión posterior a la versión de .NET Framework de destino actual ".NETFramework,Version=v4.0,Profile=Client".
+1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1819,5): warning MSB3253: La versión de .NET Framework de destino ".NETFramework,Version=v4.0,Profile=Client" actual no incluye el elemento "System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" del que depende el ensamblado "Microsoft.VisualBasic.PowerPacks.Design, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" al que se hace referencia. Esto hizo que no se resolviera dicho ensamblado. Para corregirlo, (1) cambie la versión de .NET Framework de destino para este proyecto, o bien (2) quite del proyecto el ensamblado al que se hace referencia.
+1>C:\Users\Francesc\Documents\Visual Studio 2015\Projects\EtiquetasPrensa_4\EtiquetasPrensa\AltaTAG.vb(538,13): warning BC42024: Variable local sin usar: 'Dia'.
+1>C:\Users\Francesc\Documents\Visual Studio 2015\Projects\EtiquetasPrensa_4\EtiquetasPrensa\AltaTAG.vb(539,13): warning BC42024: Variable local sin usar: 'cnn'.
+1>  EtiquetasPrensa -> C:\Users\Francesc\Documents\Visual Studio 2015\Projects\EtiquetasPrensa_4\EtiquetasPrensa\bin\Debug\EtiquetasPrensa.exe
+Compilando EtiquetasPrensa...
+2>------ Publicación iniciada: proyecto: EtiquetasPrensa, configuración: Debug x86 ------
+Conectando con '\\SERVERN\AppSala\EtiquetasPrensaTAG\'...
+Publicando archivos...
+Publicación correcta.
+\\SERVERN\AppSala\EtiquetasPrensaTAG\publish.htm
+========== Compilar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+========== Publicación: 1 procesados, 0 no procesados, 0 omitidos ==========
