@@ -504,6 +504,7 @@ Public Class AltaTAG
                 Case 1
                     LabPedido.Text = IIf(Len(LabPedido.Text) < 8, LabPedido.Text & Numeros, LabPedido.Text)
                     If Len(LabPedido.Text) = 8 Then
+
                         auxCaja = repo.obtenerParametrosFromPedido(LabPedido.Text.Trim()) 'obtenemos los parametros del pedido''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
                         DatosSacosProduccion = repo.obtenerDatosSacos(LabPedido.Text.Trim())
                         Dim grafica1 As Grafica = New Grafica()
@@ -529,6 +530,10 @@ Public Class AltaTAG
 
                             End If
                         End If
+                        Panel1.Controls.Clear()
+                        Etiqueta = New ControlesFrancesc.Etiqueta
+                        Etiqueta.TipoImpresionCentrado(Tamany, Tipo) 'TODO mod_centrado_blanco
+                        Panel1.Controls.Add(Etiqueta)
                         Etiqueta.DatosEtiquetaImpresion(Val(LabPedido.Text), 1, CadenaConexionProduccion) 'TODO mod_centrado_blanco
                         VerEtiquetaPedido(Val(LabPedido.Text))
                         CargaGrid(Val(LabPedido.Text))
@@ -544,8 +549,9 @@ Public Class AltaTAG
     End Sub
     Private Sub Limpia()
         EtiquetaActiva = False
-        Etiqueta.Visible = False
-        Etiqueta.Visible = False
+        If Etiqueta IsNot Nothing Then
+            Etiqueta.Visible = False
+        End If
         LabPedido.Text = ""
         LabNEtiquetas.Text = ""
         pbApa.Visible = False
@@ -577,7 +583,7 @@ Public Class AltaTAG
         'End If
         CadenaConexionProduccion = obtenerCadenaConexionProduccion()
         Etiqueta = New ControlesFrancesc.Etiqueta
-        Me.Controls.Add(Etiqueta)
+        'Me.Controls.Add(Etiqueta)
         EtiqIzq = New ControlesFrancesc.Etiqueta
         EtiqDer = New ControlesFrancesc.Etiqueta
         pnEtiqIzq.Controls.Add(EtiqIzq)
@@ -608,10 +614,10 @@ Public Class AltaTAG
         '    "Initial Catalog=Produccion; " &
         '"Data Source=SERVERSALA\NEXUS; ")
         'Etiqueta.Location = New Point(628, 442) MOD
-        Etiqueta.TipoImpresionCentrado(Tamany, Tipo) 'TODO mod_centrado_blanco
-        Panel1.Controls.Add(Etiqueta)
+        'Etiqueta.TipoImpresionCentrado(Tamany, Tipo) 'TODO mod_centrado_blanco
+        'Panel1.Controls.Add(Etiqueta)
         LabPedido.Text = ""
-        Etiqueta.Visible = False
+        'Etiqueta.Visible = False
         LabPedido.BackColor = Color.White
         LabNEtiquetas.BackColor = Color.LightGray
         ConfiguraPuertosSerie()
@@ -731,7 +737,9 @@ Public Class AltaTAG
         End Try
 
         If CodUtilidad = 1 Then
-            Etiqueta.Visible = False
+            If Etiqueta IsNot Nothing Then
+                Etiqueta.Visible = False
+            End If
             VerTAGIdSaco(Paquete, Lector)
         End If
 
