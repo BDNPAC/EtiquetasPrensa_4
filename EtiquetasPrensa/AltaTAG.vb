@@ -1473,7 +1473,7 @@ Public Class AltaTAG
             If Connect1ToServerSala.State <> ConnectionState.Open Then
                 Connect1ToServerSala.Open()
             End If
-            Using strSQL As New SqlCommand("INSERT INTO [dbo].[RegistroPrensaSaco] ([IdPedido],[IdSaco],[NCP],[isCorrecto],[Tag],[Prensa]) VALUES (@Pedido, @IdSaco, @NCP, @isOK, @Tag, @Prensa)", ConnectToServerSala)
+            Using strSQL As New SqlCommand("INSERT INTO [dbo].[RegistroPrensaSaco] ([IdPedido],[IdSaco],[NCP],[isCorrecto],[Tag],[Prensa]) VALUES (@Pedido, @IdSaco, @NCP, @isOK, @Tag, @Prensa)", Connect1ToServerSala)
                 strSQL.Parameters.AddWithValue("@Pedido", Pedido)
                 strSQL.Parameters.AddWithValue("@IdSaco", IdSaco)
                 strSQL.Parameters.AddWithValue("@NCP", NCP)
