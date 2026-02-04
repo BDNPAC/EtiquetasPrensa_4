@@ -1470,8 +1470,8 @@ Public Class AltaTAG
 
     Private Sub introduceRegistroSaco(ByVal Pedido As String, ByVal IdSaco As String, ByVal NCP As Integer, ByVal isOK As Int32, ByVal Tag As String)
         Try
-            If ConnectToServerSala.State <> ConnectionState.Open Then
-                ConnectToServerSala.Open()
+            If Connect1ToServerSala.State <> ConnectionState.Open Then
+                Connect1ToServerSala.Open()
             End If
             Using strSQL As New SqlCommand("INSERT INTO [dbo].[RegistroPrensaSaco] ([IdPedido],[IdSaco],[NCP],[isCorrecto],[Tag],[Prensa]) VALUES (@Pedido, @IdSaco, @NCP, @isOK, @Tag, @Prensa)", ConnectToServerSala)
                 strSQL.Parameters.AddWithValue("@Pedido", Pedido)
@@ -1486,8 +1486,8 @@ Public Class AltaTAG
             ExecuteSqlTransactionRegistroError(My.Computer.Name & ". ERROR EtiquetaPrensa. Error en AltaTag --> introduceRegistroSaco(). Error:" & ex.Message)
             MessageBox.Show("Error al guardar registro del saco, en tabla RegistroPrensaSaco. Error --> introduceRegistroSaco" & ex.Message)
         Finally
-            If ConnectToServerSala.State = ConnectionState.Open Then
-                ConnectToServerSala.Close()
+            If Connect1ToServerSala.State = ConnectionState.Open Then
+                Connect1ToServerSala.Close()
             End If
         End Try
     End Sub
